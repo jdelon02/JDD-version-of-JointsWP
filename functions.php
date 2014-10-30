@@ -5,6 +5,7 @@ This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
+require_once(get_template_directory().'/bower_components/CheesecakePostTypes/CheesecakePostTypes/Base.php');
 
 /*********************
 INCLUDE NEEDED FILES
