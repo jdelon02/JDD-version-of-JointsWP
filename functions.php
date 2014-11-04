@@ -6,6 +6,10 @@ just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
 
+
+
+
+
 /*********************
 INCLUDE NEEDED FILES
 *********************/
@@ -134,6 +138,46 @@ function joints_register_sidebars() {
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+	'id' => 'footer1',
+	'name' => __('Footer1', 'jointstheme'),
+	'description' => __('The First Footer.', 'jointstheme'),
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<h4 class="widgettitle">',
+	'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+	'id' => 'footer2',
+	'name' => __('Footer2', 'jointstheme'),
+	'description' => __('The Second Footer.', 'jointstheme'),
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<h4 class="widgettitle">',
+	'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+	'id' => 'footer3',
+	'name' => __('Footer3', 'jointstheme'),
+	'description' => __('The Third Footer.', 'jointstheme'),
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<h4 class="widgettitle">',
+	'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+	'id' => 'footer4',
+	'name' => __('Footer4', 'jointstheme'),
+	'description' => __('The Fourth Footer.', 'jointstheme'),
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<h4 class="widgettitle">',
+	'after_title' => '</h4>',
 	));
 
 	/*
