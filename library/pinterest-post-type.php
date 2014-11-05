@@ -1,3 +1,7 @@
+<?php
+
+
+
 $postType = array(
 		'singular_name'=> 'Pinterests'
 );
@@ -26,3 +30,5 @@ if(count($customPostTaxonomies) > 0)
 		wp_list_categories( $args );
 	}
 }
+
+?>
